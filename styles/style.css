@@ -9,6 +9,14 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.header-container{
+    display: flex;
+   align-items: center;
+}
+
+.header-container img{
+    margin-right: 10px;
+}
 
 nav{
     display: flex;
@@ -337,6 +345,34 @@ width: 100%;
     color: white; 
 }
 
+.small-section{
+    text-align: center;
+    margin-bottom: 40px
+}
+
+.small-section h3{
+font-size: 27px;
+font-weight: 700;
+}
+
+.small-section p{
+font-size: 16px;
+color: gray;
+}
+
+.us-container {
+
+}
+
+.us-container .left-section{
+
+}
+
+.us-container .right-section{
+    
+}
+
+
 
 
 
@@ -507,6 +543,11 @@ margin-left: -80px;
     
     }
 
+    .header-container img{
+        display: none;
+    }
+    
+
 
     
 
@@ -514,5 +555,103 @@ margin-left: -80px;
 
 
 
+}
+
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .header{
+        padding: 0px;
+       max-width: 980px;
+       width: 100%;
+    }
+
+    .header-container{
+        margin-left: 20px;
+    }
+
+    nav{
+      
+    }
+
+    .populer-container{
+        padding: 30px;
+     justify-content: space-around;
+    }
+
+    .populer-container .image-section img{
+     
+        margin-left: 40px;
+    
+    }
+.middle-container{
+    margin-top: 10px;
+}
+    .banner{
+        max-width: 1150px;
+        margin: 0 auto;
+        height: 400px;
+      
+    }
+
+    .middle-img-section{
+        padding: 0px 10px;
+    }
+
+    .middle-img{
+        padding: 0px 10px;
+       
+    }
+
+    .last-img-section{
+        padding: 0px 10px;
+    }
+
+    .middle-img-section .image-1 .relative{
+        top: -140px;
+        left: 170px;
+    }
+
+    .middle-img-section .image-2 .relative{
+        top: -140px;
+        left: 170px;
+    }
+
+    .middle-img .image-1 .relative{
+        top: -130px;
+        left: 110px;
+
+      
+    }
+    
+    .middle-img .image-2 .relative{
+        top: -130px;
+        left: 100px;
+    
+    }
+    
+    .middle-img .image-3 .relative{
+     
+        top: -130px;
+        left: 100px;
+ 
+    }
+    .last-img-section .image-1 .relative{
+      
+        top: -130px;
+        left: 180px;
+    
+    }
+
+    .last-img-section .image-2 .relative{
+      
+        top: -130px;
+        left: 180px;
+    
+    }
 }
 
