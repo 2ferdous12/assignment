@@ -503,8 +503,8 @@ width: 50%;
  }
 
  .from-section{
-    width: 45%;
-   
+    width: 40%;
+   border: 1px solid orangered;
     background: #FFF;
     padding: 20px;
     
