@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Merriweather:wght@700&family=Mulish:ital,wght@0,400;0,500;0,700;1,500;1,600&family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;700;800&display=swap');
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -22,6 +26,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+nav ol{
+ display: none;  
 }
 
 nav h2{
@@ -68,6 +75,8 @@ nav ul li{
 .banner-container{
     text-align: center;
     padding: 100px;
+    border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
 
 }
 
@@ -602,14 +611,231 @@ margin-top: 20px;
 
 
 
-@media screen and (max-width:576px){
+ @media screen and (max-width:600px){
+    nav ul{
+        display: none;
+        margin-left: -60px;
+    }
 
+    nav ol {
+        display: block;
 
+    }
 
-
-
-
-}
+    nav ol .bar{
+        margin-left: -60px;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .banner{
+        height: 500px;
+    }
+    
+    .banner-container .banner-button-section{
+        flex-direction: column;
+        width: 250px;
+        height: 300px;
+        justify-content: space-around;
+    }
+    
+    .banner-container .banner-button-section button{
+        width: 200px;
+    }
+    
+    .banner-text-section{
+        margin-top: -70px;
+    }
+    .populer-container .text-section{
+       width: 80%;
+       margin-left: 30px;
+       
+    }
+    
+     .populer-container .image-section{
+        margin-top: 50px;
+        width: 100%;
+        margin-left: -60px;
+    
+    }
+    .populer-container{
+        flex-direction: column;
+    }
+    
+    .middle-img-section{
+        flex-direction: column;
+    }
+    
+    .middle-img-section .image-1 img{
+        width: 500px;
+       
+    }
+    .middle-img-section .image-1{
+        width: 50%;
+        margin-left: 45px;
+    }
+    .middle-img-section .image-2{
+        width: 50%;
+    }
+    
+    .middle-img-section .image-2 img{
+        width: 500px;
+        margin-left: 45px;
+    }
+    .middle-img-section .relative{
+     
+        top: -130px;
+        left: 220px;
+     
+    }
+    
+    .middle-img{
+     
+        flex-direction: column;
+        
+        }
+        
+        .middle-img .image-1{
+            width: 50%;
+        }
+        
+        .middle-img .image-1 img{
+        width: 500px;
+        margin-left: 80px;
+        
+        }
+        
+        .middle-img .image-2{
+            width: 50%;
+        }
+        
+        .middle-img .image-2 img{
+            width: 500px;
+            margin-left: 45px;
+        }
+        
+        .middle-img .image-3{
+        width: 50%;
+        }
+        
+        .middle-img .image-3 img{
+            width: 500px;
+            margin-left: 150px;
+        
+        
+        }
+        
+        .middle-img .image-1 .relative{
+            top: -130px;
+            left: 230px;
+        }
+        
+        .middle-img .image-2 .relative{
+            top: -130px;
+            left: 210px;
+        }
+        
+        .middle-img .image-3 .relative{
+            top: -130px;
+            left: 250px;
+        }
+    
+        .last-img-section{
+        flex-direction: column;
+            }
+            
+            
+            .last-img-section .image-1{
+         
+            width: 50%;
+            }
+            
+            .last-img-section .image-1 img{
+       width: 500px;
+       margin-left: 45px;
+            }
+            
+            .last-img-section .image-2{
+             width: 50%;
+                
+            }
+            
+            .last-img-section .image-2 img{
+        width: 500px;
+        margin-left: 45px;
+            }
+            
+            .last-img-section .image-1 .relative{
+                top: -130px;
+                left: 230px;
+            }
+            
+            .last-img-section .image-2 .relative{
+                top: -130px;
+                left: 240px;
+            }
+    
+    
+            .us-container {
+      flex-direction: column;
+                }
+                
+             .us-container .left-section{
+             width: 500px;
+              margin-left: 30px;
+            
+              }
+                
+                
+         .us-container .right-section{
+            width: 500px;
+            margin-left: 30px;
+         }
+    
+    .bottom-section{
+       width: 500px;
+    }
+    
+    .simple-container{
+        flex-direction: column;
+    }
+    
+    .simple-container .text-section{
+    width: 500px;
+    }
+    
+    .simple-container .img-section img{
+      width: 500px;
+      margin-top: 40px;
+     }
+     .from-continer{
+     flex-direction: column;
+     }
+    
+     .from-section{
+    width: 500px;
+    margin-top: -40px;
+        
+        
+     }
+    
+    
+     .from-continer .image-section img{
+    width: 500px;
+    margin-left: -85px;
+    margin-top: 30px;
+     }
+    
+    
+    
+     .contain{
+    
+        width: 500px;
+     }
+    
+    
+    }
+    
 
 
 
